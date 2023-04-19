@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main0 {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    background-image: url("netflix-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container1 {
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: inset 0px 0px 50px 50px rgba(0, 0, 0, 0.9);
+    border-bottom: 10px solid rgb(34, 33, 33);
+}
+.container1-div1 {
+    height: 90px;
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+    mix-blend-mode: lighten;
+}
+.div1 {
+    width: 12%;
+    height: 40px;
+    float: left; 
+    position: absolute;
+    left: 12%;
+    top: 20px;
+}
+.div2 {
+    width: 30%;
+    height: 70px;
+    float: left;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+#signin {
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#select {
+    width: 43%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.container1-div2 {
+    height: 500px;
+    position: relative;
+}
+.container1-div2 div {
+    width: 70%;
+    height: 350px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+#email {
+    width: 45%;
+    height: 54px;
+    border-radius: 5px;
+    text-align: left;
+    border: 0.5px solid whitesmoke;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 15px;
+    color: white;
+}
+
+#submit {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 23%;
+    height: 55px;
+    border-radius: 5px;
+}
+::placeholder {
+    color: grey;
+    opacity: 1;
+    padding: 10px;
+} 
+
+
+
+.container2 {
+    height: 450px;
+    background-color: black;
+    border-bottom: 10px solid rgb(34, 33, 33);
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2-div1 {
+    width: 40%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    left: 12%;
+    top: 20%;
+}
+.container2-div2 {
+    width: 40%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    right: 12%;
+    top: 15%;
+}
+
+.container3 {
+    height: 450px;
+    background-color: black;
+    border-bottom: 10px solid rgb(34, 33, 33);
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3-div1 {
+    width: 40%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+}
+.container3-div2 {
+    width: 40%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    right: 12%;
+    top: 20%;
+}
+.container4 {
+    height: 450px;
+    background-color: black;
+    border-bottom: 10px solid rgb(34, 33, 33);
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container4-div1 {
+    width: 40%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    left: 12%;
+    top: 20%;
+}
+.container4-div2 {
+    width: 38%;
+    height: 300px;
+    float: left;
+    position: absolute;
+    right: 12%;
+    top: 17%;
+}
+
+.container5 {
+    height: 450px;
+    background-color: black;
+    border-bottom: 10px solid rgb(34, 33, 33);
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.container5-div1 {
+    width: 38%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+}
+.container5-div2 {
+    width: 40%;
+    height: 350px;
+    float: left;
+    position: absolute;
+    right: 12%;
+    top: 20%;
+}
+.container5-div2 h1 {
+    font-size: 60px;
+}
+
