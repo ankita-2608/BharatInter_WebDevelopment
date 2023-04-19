@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <style>
+        
+        body {
+            background-image: url("https://media.istockphoto.com/id/1227025435/vector/meteorology-thermometers-heat-and-cold-weather-vector-illustration-cartoon-characters-in.jpg?s=612x612&w=0&k=20&c=B4fqxbG6-zvPtLk6uzVaINk16UKH4EN2di9H3T2iGD8=");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        div {
+            padding: 15px;
+            width: 25%;
+            height: 170px;
+            background: linear-gradient(to right, rgb(226, 146, 160), rgb(122, 197, 226));
+            position: absolute;
+            top: 200px;
+            left: 37.5%;
+            border-radius: 10px;
+            box-shadow: inset 0px 0px 10px black;
+            text-align: center;
+        }
+        #convert {
+            width: 70%;
+            height: 35px;
+            background-color: red;
+            border: 1px solid black;
+            color: white;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        Celcius: <input type="number" id="celcius" autofocus/><br/><br/>
+        <button id="convert">Convert</button><br/><br/>
+        Farenhite: <input type="number" id="farenhite" readonly/><br/><br/>
+        Kelvin: <input type="number" id="kelvin" readonly/>
+    </div>
+
+    <script>
+        const celcius = document.querySelector('#celcius')
+        const farenhite = document.querySelector('#farenhite')
+        const kelvin = document.querySelector('#kelvin')
+        const convert = document.querySelector('#convert')
+
+        convert.addEventListener('click', ()=> {
+            let celciusVal = Number(celcius.value)
+            let farenhiteVal = (celciusVal*9/5)+32
+            let kelvinVal = celciusVal + 273.15
+
+            farenhite.value = farenhiteVal.toFixed(2)
+            kelvin.value = kelvinVal.toFixed(2)
+        })
+    </script>
+
+
+</body>
+</html>
